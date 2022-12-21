@@ -25,6 +25,8 @@ body {
 
 a {
   color: var(--main-color);
+  cursor: pointer;
+  text-decoration: none;
 }
 
 ul {
@@ -90,7 +92,6 @@ nav {
   padding-top: 32px;
   padding-bottom: 32px;
   position: relative;
-  text-decoration: none;
   color: var(--main-color);
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -123,7 +124,6 @@ nav {
   gap: 10px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .phone {
@@ -133,7 +133,6 @@ nav {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
-  text-decoration: none;
 }
 
 .mail:hover .icon-envelope,
@@ -179,7 +178,6 @@ nav {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  text-decoration: none;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -399,10 +397,6 @@ nav {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   overflow: hidden;
-}
-
-.portfolio-link {
-  text-decoration: none;
 }
 
 .portfolio-card:hover {

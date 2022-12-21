@@ -25,6 +25,8 @@ body {
 
 a {
   color: var(--main-color);
+  cursor: pointer;
+  text-decoration: none;
 }
 
 ul {
@@ -90,7 +92,6 @@ nav {
   padding-top: 32px;
   padding-bottom: 32px;
   position: relative;
-  text-decoration: none;
   color: var(--main-color);
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -123,7 +124,6 @@ nav {
   gap: 10px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .phone {
@@ -133,7 +133,6 @@ nav {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
-  text-decoration: none;
 }
 
 .mail:hover .icon-envelope,
@@ -179,7 +178,6 @@ nav {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  text-decoration: none;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -320,7 +318,6 @@ nav {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-decoration: none;
   color: #000000;
 }
 
@@ -746,13 +743,13 @@ nav {
 
 .checkbox:checked + .check {
   background-color: var(--accent-color);
-  background-image: url("/images/svg/icon check.svg");
+  background-image: url("../../images/svg/icon check.svg");
   border: 2px solid var(--accent-color);
 }
 
 .checkbox:checked:focus + .check {
   background-color: var(--accent-color);
-  background-image: url("/images/svg/icon check.svg");
+  background-image: url("../../images/svg/icon check.svg");
   border: 2px solid #277cc1;
 }
 

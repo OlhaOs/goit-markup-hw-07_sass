@@ -36,7 +36,7 @@ header {
     padding-top: 32px;
     padding-bottom: 32px;
     position: relative;
-    text-decoration: none;
+  
     color: var(--main-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -69,7 +69,7 @@ header {
   
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
+
   }
   .phone {
     display: inline-flex;
@@ -79,7 +79,7 @@ header {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
-    text-decoration: none;
+ 
   }
   .mail:hover .icon-envelope,
   .phone:hover .icon-phone {

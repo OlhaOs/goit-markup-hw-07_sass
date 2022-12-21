@@ -16,6 +16,8 @@ html {
   }
   a {
     color: var(--main-color);
+    cursor: pointer;
+    text-decoration: none;
   }
   ul {
     margin-top: 0;
