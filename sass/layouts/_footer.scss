@@ -1,0 +1,119 @@
+.footer {
+    background-color: var(--bg-color);
+    padding: 60px 0;
+  }
+  .address {
+    margin-top: 28px;
+    width: 231px;
+  
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    color: #ffffff;
+  }
+  .logo.white-logo {
+    padding: 0;
+  
+    color: #ffffff;
+  }
+  .footer-link {
+    display: inline-block;
+    margin-top: 12px;
+  
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+  
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .footer-text {
+    margin-bottom: 20px;
+  
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  .social-media-list {
+    display: flex;
+  }
+  .decoration-footer {
+    display: flex;
+  }
+  .social-media,
+  .mailing {
+    margin-left: 70px;
+  }
+  .footer-social-media-list {
+    display: flex;
+  }
+  .footer-social-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+  
+    background-color: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-social-media-list {
+    margin-left: 0;
+  }
+  .footer-social-media-list li {
+    margin-right: 10px;
+  }
+  .footer-social-media-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-icon {
+    width: 20px;
+    height: 20px;
+    fill: #ffffff;
+  }
+  .footer-social-link:hover {
+    background-color: var(--accent-color);
+  }
+  .footer-social-link:hover .footer-icon {
+    fill: #ffffff;
+  }
+  .footer-form {
+    display: flex;
+    align-items: center;
+  }
+  .footer-email {
+    width: 358px;
+    background-color: inherit;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding: 15px;
+  
+    color: #ffffff;
+  }
+  .footer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin-left: 12px;
+    padding: 10px 28px;
+  
+    font-style: bold;
+    line-height: 1.6;
+    letter-spacing: 0.06em;
+  }
+  .footer-email::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+  }
+  .icon-tg {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    fill: #ffffff;
+  }
