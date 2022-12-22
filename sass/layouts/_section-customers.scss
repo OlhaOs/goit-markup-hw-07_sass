@@ -3,15 +3,21 @@
     padding-bottom: 94px;
   }
   
-  .client-list {
+.client-list {
     display: flex;
-  }
-  .client-list li {
+    & li {
     margin-right: 30px;
   }
-  .client-list :last-child {
+  &:last-child {
     margin-right: 0;
   }
+  }
+   .logo-client {
+    width: 106px;
+    height: 60px;
+    fill: #afb1b8;
+  } 
+    
   .logo-client-link {
     display: flex;
     width: 170px;
@@ -19,17 +25,18 @@
     align-items: center;
     justify-content: center;
     border: 1px solid #afb1b8;
-    border-radius: 4px;
-  }
-  .logo-client {
-    width: 106px;
-    height: 60px;
-    fill: #afb1b8;
-  }
-  .logo-client-link:hover {
+    border-radius: 4px; 
+    
+    
+    &:hover {
     border-color: var(--accent-color);
   }
-  .logo-client-link:hover .logo-client {
+    &:hover .logo-client {
     fill: var(--accent-color);
   }
+  
+  }
+ 
+ 
+ 
   

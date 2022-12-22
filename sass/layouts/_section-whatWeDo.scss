@@ -1,23 +1,15 @@
 .whatWeDo {
     padding-bottom: 94px;
   }
-  .whatWeDo-list {
-    display: flex;
-  }
-  .whatWeDo-list .item {
+
+.whatWeDo-list {
+    display: flex;  
+    
+  & .item:not(:last-child) {
     margin-right: 30px;
   }
-  .whatWeDo-list .item:last-child {
-    margin-right: 0;
+
   }
-  .title {
-    margin-top: 0;
-    margin-bottom: 50px;
-  
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--main-color);
-  }
+
+
   

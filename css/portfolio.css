@@ -19,6 +19,10 @@
   background-color: var(--accent-color);
 }
 
+.btn-filter:focus {
+  background-color: #02579d;
+}
+
 .filter-list {
   display: flex;
   gap: 8px;
